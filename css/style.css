@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.previous,
+.next {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #111;
+  background-color: rgba(165, 164, 164, 0.4);
+  cursor: pointer;
+}
+
+.previous a {
+  color: #fff;
+}
+
+.next a {
+  color: #fff;
+}
+
+.row {
+  position: relative;
+}
+
+.previous {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+}
+
+.next {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+}
